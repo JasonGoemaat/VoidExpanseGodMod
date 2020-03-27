@@ -1,0 +1,4 @@
+# Ignore contents of GameFiles folder, except for placeholder files
+/GameFiles/**/*
+!/GameFiles/Core/PLACEHOLDER.md
+!/GameFiles/DLC1/PLACEHOLDER.md
