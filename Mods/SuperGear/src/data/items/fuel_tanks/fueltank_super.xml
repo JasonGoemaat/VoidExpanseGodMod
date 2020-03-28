@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>fueltank_super</id>
+		<title>Civilian fuel tank</title>
+		<description>The most basic fuel tank. Used on civilian vessels.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>items/fuel_tanks/fueltank_civilian.png</icon>
+	</gfx>
+
+	<data>
+		<type>4</type>
+		
+		<shops>
+			<shops_level>1</shops_level>
+			<faction_filter></faction_filter>
+			<price>0</price>
+		</shops>
+		
+		<flags>
+			<flag>civilian</flag>
+		</flags>
+
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+			<!-- none -->
+		</upgrades>
+
+		<requirements>
+			<!-- none -->
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>fuel_capacity_value</effect_type>
+				<effect_base>300</effect_base>
+			</effect>
+		</effects>
+
+		<item_data>
+			<durability>25000</durability>
+		</item_data>
+	</data>
+</root>

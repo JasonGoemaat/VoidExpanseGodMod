@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <game>VoidExpanse</game>
+  <id>lottacargo</id>
+  <title>Lotta Cargo</title>
+  <author>me</author>
+  <description>Tired of running out of space?  No fear!</description>
+  <version>1.0.0</version>
+  <min_game_version>0.0.0</min_game_version>
+  <required_for_loading_savegame>0</required_for_loading_savegame>
+  <updated>28-03-2020</updated>
+  <modtype>2</modtype>
+  <tags>Skills</tags>
+</root>

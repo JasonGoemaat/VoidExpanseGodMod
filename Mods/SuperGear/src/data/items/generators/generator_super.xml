@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>generator_super</id>
+		<title>Civilian generator</title>
+		<description>Basic generator mostly used on light civilian ships. Certainly not the most efficient or powerful model out there.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>items/generators/generator_civilian.png</icon>
+	</gfx>
+
+	<data>
+		<type>5</type>
+		
+		<shops>
+			<shops_level>1</shops_level>
+			<faction_filter></faction_filter>
+			<price>0</price>
+		</shops>
+		
+		<flags>
+			<flag>civilian</flag>
+		</flags>
+		
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+			<!-- none -->
+		</upgrades>
+
+		<requirements>
+			<!-- none -->
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>energy_production_generator_value</effect_type>
+				<effect_base>20</effect_base>
+			</effect>
+			<effect>
+				<effect_type>energy_capacity_value</effect_type>
+				<effect_base>350</effect_base>
+			</effect>
+			<effect>
+				<effect_type>fuel_consumption_generator_value</effect_type>
+				<effect_base>50</effect_base>
+			</effect>
+		</effects>
+
+		<item_data>
+			<durability>25000</durability>
+		</item_data>
+	</data>
+</root>

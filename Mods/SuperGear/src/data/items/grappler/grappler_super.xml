@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>grappler_super</id>
+		<title>Civilian grappler</title>
+		<description>Gets the job done, but that's pretty much it. Very inefficient and slow.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>items/grapplers/grappler_civilian.png</icon>
+	</gfx>
+
+	<data>
+		<type>8</type>
+		
+		<shops>
+			<shops_level>1</shops_level>
+			<faction_filter></faction_filter>
+			<price>0</price>
+		</shops>
+	
+		<flags>
+			<flag>civilian</flag>
+		</flags>
+		
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+			<!-- none -->
+		</upgrades>
+
+		<requirements>
+			<!-- none -->
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>grappler_range_value</effect_type>
+				<effect_base>15</effect_base>
+			</effect>
+			<effect>
+				<effect_type>grappler_pickup_range_value</effect_type>
+				<effect_base>4</effect_base>
+			</effect>
+			<effect>
+				<effect_type>grappler_force_value</effect_type>
+				<effect_base>10</effect_base>
+			</effect>
+			<effect>
+				<effect_type>energy_consumption_grappler_value</effect_type>
+				<effect_base>40</effect_base>
+			</effect>
+		</effects>
+
+		<item_data>
+			<durability>25000</durability>
+		</item_data>
+	</data>
+</root>

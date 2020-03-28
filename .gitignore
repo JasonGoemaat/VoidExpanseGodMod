@@ -2,3 +2,6 @@
 /GameFiles/**/*
 !/GameFiles/Core/PLACEHOLDER.md
 !/GameFiles/DLC1/PLACEHOLDER.md
+
+# ignore generated zip files
+*.zip

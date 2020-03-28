@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+	<header>
+		<id>radar_super</id>
+		<title>Civilian radar</title>
+		<description>Standard civilian radar able to scan surroundings in a short range. The problem with it is that it wasn't built for combat and its targeting speed is awful.</description>
+		<enabled>1</enabled>
+	</header>
+
+	<gfx>
+		<icon>items/radars/radar_civilian.png</icon>
+	</gfx>
+
+	<data>
+		<type>7</type>
+		
+		<shops>
+			<shops_level>1</shops_level>
+			<faction_filter></faction_filter>
+			<price>0</price>
+		</shops>
+		
+		<flags>
+			<flag>civilian</flag>
+		</flags>
+		
+		<upgrades_max>0</upgrades_max>
+		<upgrades>
+			<!-- none -->
+		</upgrades>
+
+		<requirements>
+			<!-- none -->
+		</requirements>
+
+		<effects>
+			<effect>
+				<effect_type>radar_range_value</effect_type>
+				<effect_base>50</effect_base>
+			</effect>
+			<effect>
+				<effect_type>radar_targeting_range_value</effect_type>
+				<effect_base>15</effect_base>
+			</effect>
+			<effect>
+				<effect_type>radar_targeting_speed_value</effect_type>
+				<effect_base>200</effect_base>
+			</effect>
+			<effect>
+				<effect_type>energy_consumption_radar_value</effect_type>
+				<effect_base>1</effect_base>
+			</effect>
+		</effects>
+
+		<item_data>
+			<durability>25000</durability>
+		</item_data>
+	</data>
+</root>
