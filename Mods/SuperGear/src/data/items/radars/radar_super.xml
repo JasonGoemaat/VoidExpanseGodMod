@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>radar_super</id>
-		<title>Civilian radar</title>
-		<description>Standard civilian radar able to scan surroundings in a short range. The problem with it is that it wasn't built for combat and its targeting speed is awful.</description>
+		<title>Super radar</title>
+		<description>See it all!</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -37,19 +37,19 @@
 		<effects>
 			<effect>
 				<effect_type>radar_range_value</effect_type>
-				<effect_base>50</effect_base>
+				<effect_base>150</effect_base>
 			</effect>
 			<effect>
 				<effect_type>radar_targeting_range_value</effect_type>
-				<effect_base>15</effect_base>
+				<effect_base>25</effect_base>
 			</effect>
 			<effect>
 				<effect_type>radar_targeting_speed_value</effect_type>
-				<effect_base>200</effect_base>
+				<effect_base>2000</effect_base>
 			</effect>
 			<effect>
 				<effect_type>energy_consumption_radar_value</effect_type>
-				<effect_base>1</effect_base>
+				<effect_base>0</effect_base>
 			</effect>
 		</effects>
 

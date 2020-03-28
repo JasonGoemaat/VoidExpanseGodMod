@@ -100,8 +100,8 @@ edited it to change the id.  If you kept the same file name and id you would be 
 ## Installing your mod
 
 The `publish.ps1` script will compress the contents of the `src` folder and create the `mpk` file in your mods directory.
-To do this you should first exit the game if you have it open.  Otherwise the file will be locked, and you
-need to restart the game to reload mod contents anyway.
+To do this you should first exit the game if you have it open or uncheck the mod if you're updating it.  Otherwise the
+file will be locked, and you need to restart the game or unload the mod to reload mod contents anyway.
 
 To run the script you can run it from powershell or from within VSCode.  You may need to have the
 powershell extension installed.  I like opening a terminal from within VSCode by right-clicking on the

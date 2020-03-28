@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>hull_super</id>
-		<title>Civilian shuttle</title>
-		<description>It would probably be a good idea to get rid of this as soon as you can...</description>
+		<title>Super shuttle</title>
+		<description>Niiiice</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -37,15 +37,19 @@
 		<effects>
 			<effect>
 				<effect_type>structure_value</effect_type>
-				<effect_base>1000</effect_base>
+				<effect_base>999999</effect_base>
+			</effect>
+			<effect>
+				<effect_type>armor_value</effect_type>
+				<effect_base>9999</effect_base>
 			</effect>
 			<effect>
 				<effect_type>cargo_capacity_value</effect_type>
-				<effect_base>200</effect_base>
+				<effect_base>999999</effect_base>
 			</effect>
 			<effect>
 				<effect_type>radar_targeting_defense_percent</effect_type>
-				<effect_base>25</effect_base>
+				<effect_base>250</effect_base>
 			</effect>
 		</effects>
 
@@ -78,7 +82,7 @@
 			</sfx>
 			
 			<physics>
-				<mass>20</mass>
+				<mass>200</mass>
 				<shapes>
 					<shape>
 						<type>box</type>
@@ -96,21 +100,65 @@
 			</physics>
 
 			<equipment_slots>
-				<consumables>1</consumables>
-				<devices>1</devices>
-				<boosters>0</boosters>
+				<consumables>3</consumables>
+				<devices>6</devices>
+				<boosters>6</boosters>
 			</equipment_slots>
 			
 			<weapon_slots>
 				<weapon_slot>
 					<id>0</id>
-					<slot_type>1;2</slot_type>
+					<slot_type>1;2;3</slot_type>
 					<slot_size>1</slot_size>
 					<display_type>1</display_type>
 					<direction>0</direction>
-					<rotation_angle>120</rotation_angle>
-					<rotation_speed>180</rotation_speed>
+					<rotation_angle>360</rotation_angle>
+					<rotation_speed>360</rotation_speed>
 					<position>-0.227;0.000;-0.203</position>
+				</weapon_slot>
+
+				<weapon_slot>
+					<id>1</id>
+					<slot_type>1;2;3</slot_type>
+					<slot_size>1</slot_size>
+					<display_type>1</display_type>
+					<direction>0</direction>
+					<rotation_angle>360</rotation_angle>
+					<rotation_speed>360</rotation_speed>
+					<position>-0.227;0.100;-0.203</position>
+				</weapon_slot>
+
+				<weapon_slot>
+					<id>2</id>
+					<slot_type>1;2;3</slot_type>
+					<slot_size>1</slot_size>
+					<display_type>1</display_type>
+					<direction>0</direction>
+					<rotation_angle>360</rotation_angle>
+					<rotation_speed>360</rotation_speed>
+					<position>-0.227;-0.100;-0.203</position>
+				</weapon_slot>
+
+				<weapon_slot>
+					<id>3</id>
+					<slot_type>1;2;3</slot_type>
+					<slot_size>1</slot_size>
+					<display_type>1</display_type>
+					<direction>0</direction>
+					<rotation_angle>360</rotation_angle>
+					<rotation_speed>360</rotation_speed>
+					<position>-0.227;0.200;-0.203</position>
+				</weapon_slot>
+
+				<weapon_slot>
+					<id>4</id>
+					<slot_type>1;2;3</slot_type>
+					<slot_size>1</slot_size>
+					<display_type>1</display_type>
+					<direction>0</direction>
+					<rotation_angle>360</rotation_angle>
+					<rotation_speed>360</rotation_speed>
+					<position>-0.227;-0.200;-0.203</position>
 				</weapon_slot>
 			</weapon_slots>
 

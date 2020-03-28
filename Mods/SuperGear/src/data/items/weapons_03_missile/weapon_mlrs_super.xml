@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>weapon_mlrs_super</id>
-		<title>MLRS GC10 XS</title>
-		<description>Multiple launch rocket system with guided missiles. MLRS GC class launchers are praised as one of the most reliable launcher systems ever created thanks to their unique homing capabilities unmatched by any other weapon. These missiles are able to follow any target to matter how agile it is.</description>
+		<title>Super MLRS</title>
+		<description>Kaboom!</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -27,12 +27,7 @@
 		</upgrades>
 
 		<requirements>
-			<effects>
-				<effect>
-					<id>use_missile_weapons_ability</id>
-					<value>1</value>
-				</effect>
-			</effects>
+			<!-- none -->
 		</requirements>
 
 		<effects>
@@ -57,13 +52,13 @@
 				<on_not_ready>items/generic_on_not_ready.ogg</on_not_ready>
 			</sfx>
 			<weapon>
-				<durability_per_shot>5</durability_per_shot>
+				<durability_per_shot>0</durability_per_shot>
 				<weapon_type>3</weapon_type>
 				<weapon_size>1</weapon_size>
-				<fire_sequence_delay_sec>3</fire_sequence_delay_sec>
-				<fire_sequence_energy>50</fire_sequence_energy>
-				<ammo_max>80</ammo_max>
-				<ammo_per_shot>4</ammo_per_shot>
+				<fire_sequence_delay_sec>1</fire_sequence_delay_sec>
+				<fire_sequence_energy>0</fire_sequence_energy>
+				<ammo_max>9999</ammo_max>
+				<ammo_per_shot>0</ammo_per_shot>
 				<ammo_recharge_sec>0</ammo_recharge_sec>
 				<ammo_recharge_energy>0</ammo_recharge_energy>
 				<ammo_auto_recharge_at_station>1</ammo_auto_recharge_at_station>
@@ -108,7 +103,7 @@
 					<shot_delay>0</shot_delay>
 					<angle>0</angle>
 					<spread>15</spread>
-					<dmg>50</dmg>
+					<dmg>500</dmg>
 					<dmg_type>3</dmg_type>
 					<distance>40</distance>
 					<max_distance>40</max_distance>
@@ -117,8 +112,8 @@
 					<projectile_type>3</projectile_type>
 					<duration>0</duration>
 					<homing>360</homing>
-					<homing_delay>0.4</homing_delay>
-					<speed>20</speed>
+					<homing_delay>0.1</homing_delay>
+					<speed>50</speed>
 					<radius>2</radius>
 					<max_radius>3</max_radius>
 					<structure>1</structure>
@@ -172,7 +167,7 @@
 					<shot_delay>0.075</shot_delay>
 					<angle>0</angle>
 					<spread>15</spread>
-					<dmg>50</dmg>
+					<dmg>500</dmg>
 					<dmg_type>3</dmg_type>
 					<distance>40</distance>
 					<max_distance>40</max_distance>
@@ -181,8 +176,8 @@
 					<projectile_type>3</projectile_type>
 					<duration>0</duration>
 					<homing>360</homing>
-					<homing_delay>0.4</homing_delay>
-					<speed>20</speed>
+					<homing_delay>0.1</homing_delay>
+					<speed>50</speed>
 					<radius>2</radius>
 					<max_radius>3</max_radius>
 					<structure>1</structure>

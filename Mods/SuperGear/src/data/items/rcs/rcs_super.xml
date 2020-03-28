@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>rcs_super</id>
-		<title>Civilian RCS</title>
-		<description>Standard civilian issue RCS for most light ships. Provides very limited maneuvering capabilities.</description>
+		<title>Super RCS</title>
+		<description>Maneuver like crazy!</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -37,15 +37,19 @@
 		<effects>
 			<effect>
 				<effect_type>acceleration_value</effect_type>
-				<effect_base>10</effect_base>
+				<effect_base>500</effect_base>
 			</effect>
 			<effect>
 				<effect_type>maneuvering_value</effect_type>
-				<effect_base>400</effect_base>
+				<effect_base>450</effect_base>
 			</effect>
 			<effect>
 				<effect_type>energy_consumption_engine_value</effect_type>
-				<effect_base>2</effect_base>
+				<effect_base>0</effect_base>
+			</effect>
+			<effect>
+				<effect_type>deceleration_special</effect_type>
+				<effect_base>5</effect_base>
 			</effect>
 		</effects>
 

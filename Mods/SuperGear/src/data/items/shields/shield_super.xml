@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>shield_super</id>
-		<title>Civilian shield (Deflector type)</title>
-		<description>Most basic civilian shield. Could probably deflect a piece of garbage dropped by a nearby ship. But that's the most it can do.</description>
+		<title>Super shield (Deflector type)</title>
+		<description>No thanks</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -37,27 +37,27 @@
 		<effects>
 			<effect>
 				<effect_type>shield_charge_value</effect_type>
-				<effect_base>350</effect_base>
+				<effect_base>999999</effect_base>
 			</effect>
 			<effect>
 				<effect_type>shield_regeneration_value</effect_type>
-				<effect_base>25</effect_base>
+				<effect_base>9999</effect_base>
 			</effect>
 			<effect>
 				<effect_type>shield_deflection_value</effect_type>
-				<effect_base>100</effect_base>
+				<effect_base>9000</effect_base>
 			</effect>
 			<effect>
 				<effect_type>shield_reestablishment_value</effect_type>
-				<effect_base>100</effect_base>
+				<effect_base>9000</effect_base>
 			</effect>
 			<effect>
 				<effect_type>shield_regeneration_delay_value</effect_type>
-				<effect_base>3</effect_base>
+				<effect_base>0</effect_base>
 			</effect>
 			<effect>
 				<effect_type>energy_consumption_shield_value</effect_type>
-				<effect_base>12</effect_base>
+				<effect_base>0</effect_base>
 			</effect>
 		</effects>
 

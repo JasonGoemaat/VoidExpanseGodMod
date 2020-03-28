@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>fueltank_super</id>
-		<title>Civilian fuel tank</title>
-		<description>The most basic fuel tank. Used on civilian vessels.</description>
+		<title>Super fuel tank</title>
+		<description>I have the power!</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -37,7 +37,7 @@
 		<effects>
 			<effect>
 				<effect_type>fuel_capacity_value</effect_type>
-				<effect_base>300</effect_base>
+				<effect_base>9999</effect_base>
 			</effect>
 		</effects>
 

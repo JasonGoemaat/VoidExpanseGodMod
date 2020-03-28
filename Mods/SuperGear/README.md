@@ -14,4 +14,6 @@ with these names:
 * `radar_super`
 * `rcs_super`
 * `shield_super`
-* `shield_super`
+* `weapon_laser_super`
+* `weapon_autocannon_super`
+* `weapon_mlrs_super`

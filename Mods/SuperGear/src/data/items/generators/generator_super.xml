@@ -3,7 +3,7 @@
 <root>
 	<header>
 		<id>generator_super</id>
-		<title>Civilian generator</title>
+		<title>Super generator</title>
 		<description>Basic generator mostly used on light civilian ships. Certainly not the most efficient or powerful model out there.</description>
 		<enabled>1</enabled>
 	</header>
@@ -37,15 +37,15 @@
 		<effects>
 			<effect>
 				<effect_type>energy_production_generator_value</effect_type>
-				<effect_base>20</effect_base>
+				<effect_base>2000</effect_base>
 			</effect>
 			<effect>
 				<effect_type>energy_capacity_value</effect_type>
-				<effect_base>350</effect_base>
+				<effect_base>9999</effect_base>
 			</effect>
 			<effect>
 				<effect_type>fuel_consumption_generator_value</effect_type>
-				<effect_base>50</effect_base>
+				<effect_base>0</effect_base>
 			</effect>
 		</effects>
 

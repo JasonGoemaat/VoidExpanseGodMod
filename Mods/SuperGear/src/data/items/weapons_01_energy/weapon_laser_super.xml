@@ -3,8 +3,8 @@
 <root>
 	<header>
 		<id>weapon_laser_super</id>
-		<title>Civilian laser</title>
-		<description>This thing barely qualifies as a weapon... it looks more like a laser pointer.</description>
+		<title>Super laser</title>
+		<description>PEW PEW PEW</description>
 		<enabled>1</enabled>
 	</header>
 
@@ -56,15 +56,15 @@
 				<on_not_ready>items/generic_on_not_ready.ogg</on_not_ready>
 			</sfx>
 			<weapon>
-				<durability_per_shot>1</durability_per_shot>
+				<durability_per_shot>0</durability_per_shot>
 				<weapon_type>1</weapon_type>
 				<weapon_size>1</weapon_size>
 				<fire_sequence_delay_sec>1</fire_sequence_delay_sec>
 				<fire_sequence_energy>0</fire_sequence_energy>
-				<ammo_max>100</ammo_max>
-				<ammo_per_shot>5</ammo_per_shot>
-				<ammo_recharge_sec>4</ammo_recharge_sec>
-				<ammo_recharge_energy>3</ammo_recharge_energy>
+				<ammo_max>9999</ammo_max>
+				<ammo_per_shot>0</ammo_per_shot>
+				<ammo_recharge_sec>1</ammo_recharge_sec>
+				<ammo_recharge_energy>0</ammo_recharge_energy>
 				<ammo_auto_recharge_at_station>1</ammo_auto_recharge_at_station>
 				<ammo_recharge_price>0</ammo_recharge_price>
 				<ammo_meter>2</ammo_meter>
@@ -128,16 +128,16 @@
 					<shot_delay>0</shot_delay>
 					<angle>0</angle>
 					<spread>0</spread>
-					<dmg>80</dmg>
+					<dmg>800</dmg>
 					<dmg_type>1</dmg_type>
-					<distance>6</distance>
-					<max_distance>14</max_distance>
+					<distance>18</distance>
+					<max_distance>20</max_distance>
 					<impulse>0</impulse>
 					<!-- projectile type: direct_hit=1, ray=2, missile=3, bullet=4 -->
 					<projectile_type>2</projectile_type>
 					<duration>1</duration>
 					<duration_prepare>0.1</duration_prepare>
-					<duration_complete>0.1</duration_complete>
+					<duration_complete>0</duration_complete>
 					<homing>0</homing>
 					<speed>0</speed>
 					<radius>0</radius>
